@@ -89,20 +89,35 @@ body {
   margin-top: -80px;
   width: 90%;
   margin-left: 40px;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 10px #eaf2ff;
 }
 
 input {
   outline: none;
   padding: 10px;
   margin-left: 22px;
-  border-color: rgba(188, 200, 211, 0.801);
   border-radius: 5px;
+  border-color: #eaf2ff;
   color: rgba(188, 200, 211, 0.801);
   font-size: 10px;
   width: 238px;
   height: 20px;
 }
-
+select {
+  outline: none;
+  padding-right: 10px;
+  margin-left: 22px;
+  border-color: rgba(188, 200, 211, 0.801);
+  border-radius: 5px;
+  color: rgba(188, 200, 211, 0.801);
+  font-size: 10px;
+  width: 262px;
+  height: 48px;
+  margin-bottom: 30px;
+}
 .form-title {
   padding: 20px;
   font-size: 20px;
@@ -151,7 +166,7 @@ p {
   padding: 10px;
 }
 
-.pic-container{
+.pic-container {
   margin-bottom: 50px;
 }
 
@@ -169,7 +184,7 @@ p {
   background-size: 90px;
 }
 
-.pic-right{
+.pic-right {
   flex: 1;
   padding: auto;
   margin-left: 20px;
@@ -182,14 +197,14 @@ p {
   line-height: 1.6;
 }
 
-.h-why-gg{
+.h-why-gg {
   margin-top: 70px;
   margin-bottom: 20px;
   font-weight: bolder;
   font-size: larger;
 }
 
-.tick{
+.tick {
   height: 20px;
   width: 20px;
 }
@@ -204,7 +219,7 @@ p {
   margin-bottom: 30px;
 }
 
-.spclt1-conatiner{
+.spclt1-conatiner {
   margin-left: 50px;
   margin-right: 50px;
   display: flex;
@@ -259,23 +274,22 @@ p {
   height: 270px;
 }
 
-.interested-container{
+.interested-container {
   margin-left: 100px;
   margin-right: 100px;
 }
 
-.interest-conatiner{
+.interest-conatiner {
   display: flex;
   justify-content: space-evenly;
   padding: 40px;
-  
 }
 
-.interest-img1{
+.interest-img1 {
   width: 80%;
 }
 
-.last-background{
+.last-background {
   background-color: #eaf2ff;
   height: 450px;
   width: 100%;
@@ -284,7 +298,7 @@ p {
   z-index: -1;
 }
 
-.subscribe{
+.subscribe {
   background-color: white;
 
   height: 150px;
@@ -293,30 +307,30 @@ p {
   display: flex;
 }
 
-.subscribe-left{
+.subscribe-left {
   width: 50%;
   background-image: url("/images/subscribe.png");
   background-size: cover;
 }
-.h-subscribe{
+.h-subscribe {
   line-height: 1.6;
   padding: 50px;
 }
 
-.email-input{
+.email-input {
   outline: none;
   border: none;
   border-radius: 0%;
   width: 200px;
 }
 
-.email-btn{
+.email-btn {
   width: 100px;
   height: 40px;
   text-align: center;
 }
 
-.submit-div{
+.submit-div {
   border: none;
   width: 50%;
   margin-top: 30px;
@@ -324,10 +338,9 @@ p {
   border-bottom: 1px solid rgb(220, 215, 209);
   margin-bottom: 50px;
 }
-::placeholder{
+::placeholder {
   font-size: 12px;
 }
-
 
 .footer {
   padding: 20px;
@@ -345,88 +358,93 @@ p {
   flex-direction: column;
 }
 
-
 .footer-about {
   display: flex;
   flex-direction: column;
   margin-left: 50px;
 }
 
-.about-academics{
+.about-academics {
   margin-top: 30px;
 }
 .about-hospt-dept {
   margin-top: 30px;
 }
 
-.footer-a{
+.footer-a {
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
   color: black;
 }
 
-.link-gap{
+.link-gap {
   margin-left: 50px;
 }
 
-.logo-and-contents p{
+.logo-and-contents p {
   line-height: 27px;
   font-size: 14px;
   font-weight: 400px;
 }
 
-hr{
+hr {
   color: aliceblue;
 }
 
-.footer-bottom1{
+.footer-bottom1 {
   display: flex;
   margin-top: 10px;
 }
 
-.footer-bottom{
+.footer-bottom {
   display: flex;
   align-items: center;
   width: 1/4;
 }
 
-.icons{
+.icons {
   width: 20px;
   height: 20px;
 }
 
-.follow{
+.follow {
   display: flex;
 }
 
-.social-media{
+.social-media {
   margin-top: 10px;
   width: 1/4;
 }
 
-.align{
+.align {
   margin-left: 100px;
 }
 
-.apps{
+.apps {
   padding-right: 10px;
   padding-top: 10px;
 }
 
-.copyright{
+.copyright {
   text-align: center;
   align-items: center;
 }
-.top-div{
-  background-color: #F5F5F5;
+.top-div {
+  background-color: #f5f5f5;
   width: 100%;
   height: 50px;
   text-align: center;
   align-items: center;
 }
-.top-part{
+.top-part {
   display: flex;
   text-align: center;
   align-items: center;
+}
+
+.top-part-apps {
+  height: 18px;
+  width: 18px;
+  padding-left: 20px;
 }
